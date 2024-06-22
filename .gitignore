@@ -1,0 +1,59 @@
+# .gitignore file
+#
+# Set up for Microchip/MPLAB X development
+#
+# John Haroian
+# Greg Mzorek
+# Mike Hamerly
+#
+# Updated April 9, 2022
+
+# MPLAB X IDE (Netbeans) specific
+**/*.X/~*.*
+**/*.X/build/
+**/*.X/debug/
+**/*.X/.generated_files
+#**/*.X/dist/*
+#!**/*.X/dist/default/
+#**/*.X/dist/default/*
+#!**/*.X/dist/default/production/
+#**/*.X/dist/default/production/*
+#!**/*.X/dist/default/production/*.hex
+# the above allows the .hex file to also be uploaded, but not the other files...
+**/*.X/disassembly/
+#**/*.X/.generated_files/
+**/*.X/nbproject/private/
+**/*.X/nbproject/*.mk
+**/*.X/nbproject/*.bash
+**/*.X/nbproject/Makefile-genesis.properties
+
+
+# Object files and MPLab Generated files in the dist folder
+*.o
+*.d
+*.ko
+*.obj
+*.elf
+*.mum
+*.cmf
+*.hxl
+*.rlf
+*.sdb
+*.p1
+*.i
+*.d
+*.sym
+*.lst
+*.map
+memoryfile.xml
+
+# Executables
+*.exe
+
+
+# KDE specific
+.directory
+
+# Misc
+.svn
+*.bak

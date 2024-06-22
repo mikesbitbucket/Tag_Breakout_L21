@@ -1,0 +1,38 @@
+Pin Number,Pin ID,Custom Name,Function,Mode, Direction,Latch,Pull Up,Pull Down,Drive Strength
+1,PA00,,Available,,,,,,NORMAL
+2,PA01,,Available,,,,,,NORMAL
+3,PA02,DAC0,DAC_VOUT0,Analog,High Impedance,n/a,,,NORMAL
+4,PA03,Strap_RX_Det_Out,ADC_AIN1,Analog,High Impedance,n/a,,,NORMAL
+7,PB08,SPI_MOSI,SERCOM4_PAD0,Digital,High Impedance,n/a,No,No,NORMAL
+8,PB09,SPI_CLK,SERCOM4_PAD1,Digital,High Impedance,n/a,No,No,NORMAL
+9,PA04,HI_Comp_Ref,ADC_AIN4/VREFP,Analog,High Impedance,n/a,,,NORMAL
+10,PA05,LO_Comp_Ref,ADC_AIN5,Analog,High Impedance,n/a,,,NORMAL
+11,PA06,HI_RSSI,ADC_AIN6,Analog,High Impedance,n/a,,,NORMAL
+12,PA07,LO_RSSI,ADC_AIN7,Analog,High Impedance,n/a,,,NORMAL
+13,PA08,UART_L21_2_BLE,SERCOM0_PAD0,Digital,High Impedance,n/a,No,No,NORMAL
+14,PA09,UART_BLE_2_L21,SERCOM0_PAD1,Digital,High Impedance,n/a,No,No,NORMAL
+15,PA10,Intrusion,ADC_AIN18,Analog,High Impedance,n/a,,,NORMAL
+16,PA11,SPI_CSn,GPIO,Digital,Out,High,,,NORMAL
+19,PB10,SPI_MISO,SERCOM4_PAD2,Digital,High Impedance,n/a,No,No,NORMAL
+20,PB11,Strap_TX_LED,GPIO,Digital,Out,Low,,,NORMAL
+21,PA12,I2C_SDA,SERCOM2_PAD0,Digital,High Impedance,n/a,No,No,NORMAL
+22,PA13,I2C_SCL,SERCOM2_PAD1,Digital,High Impedance,n/a,No,No,NORMAL
+23,PA14,HI_DAC_En,GPIO,Digital,Out,Low,,,NORMAL
+24,PA15,IO_EXP_INTn,EIC_EXTINT15,Digital,High Impedance,n/a,No,No,NORMAL
+25,PA16,UART_L21_2_R35,SERCOM1_PAD0,Digital,High Impedance,n/a,No,No,NORMAL
+26,PA17,UART_R35_2_L21,SERCOM1_PAD1,Digital,High Impedance,n/a,No,No,NORMAL
+27,PA18,ACCEL_INTn,EIC_EXTINT2,Digital,High Impedance,n/a,No,No,NORMAL
+28,PA19,PULSEOX_INTn,EIC_EXTINT3,Digital,High Impedance,n/a,No,No,NORMAL
+29,PA20,Shiel_INTn,EIC_EXTINT4,Digital,High Impedance,n/a,No,No,NORMAL
+30,PA21,LO_DAC_En,GPIO,Digital,Out,Low,,,NORMAL
+31,PA22,PCTX,SERCOM3_PAD0,Digital,High Impedance,n/a,No,No,NORMAL
+32,PA23,PCRX,SERCOM3_PAD1,Digital,High Impedance,n/a,No,No,NORMAL
+33,PA24,GREEN_LED,GPIO,Digital,Out,Low,,,NORMAL
+34,PA25,SW_PWR_EN,GPIO,Digital,Out,Low,,,NORMAL
+37,PB22,Mag_Out_1,EIC_EXTINT6,Digital,In/Out,Low,,,NORMAL
+38,PB23,Mag_Out_2,EIC_EXTINT7,Digital,High Impedance,n/a,No,No,NORMAL
+39,PA27,Strap_Discharge,GPIO,Digital,Out,Low,,,NORMAL
+45,PA30,,Available,,,,,,NORMAL
+46,PA31,,Available,,,,,,NORMAL
+47,PB02,THERM1,ADC_AIN10,Analog,High Impedance,n/a,,,NORMAL
+48,PB03,DETECT_EN,GPIO,Digital,Out,Low,,,NORMAL
